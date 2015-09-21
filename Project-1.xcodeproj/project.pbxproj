@@ -14,6 +14,13 @@
 		09E566D11BAF84ED00443168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E566CF1BAF84ED00443168 /* LaunchScreen.storyboard */; };
 		09E566DC1BAF84ED00443168 /* Project_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E566DB1BAF84ED00443168 /* Project_1Tests.swift */; };
 		09E566E71BAF84ED00443168 /* Project_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E566E61BAF84ED00443168 /* Project_1UITests.swift */; };
+		09E566F51BAF930A00443168 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E566F41BAF930A00443168 /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		09E566F71BAF932100443168 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E566F61BAF932100443168 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		09E566F91BAF95B600443168 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E566F81BAF95B600443168 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		09E566FB1BAF95C900443168 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E566FA1BAF95C900443168 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		09E566FD1BAFA3B900443168 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E566FC1BAFA3B900443168 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		09E566FF1BAFA71B00443168 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E566FE1BAFA71B00443168 /* PhotosViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		09E567011BAFA93400443168 /* SettingsLoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E567001BAFA93400443168 /* SettingsLoggedInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		09E566E21BAF84ED00443168 /* Project-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E566E61BAF84ED00443168 /* Project_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_1UITests.swift; sourceTree = "<group>"; };
 		09E566E81BAF84ED00443168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E566F41BAF930A00443168 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		09E566F61BAF932100443168 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		09E566F81BAF95B600443168 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		09E566FA1BAF95C900443168 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		09E566FC1BAFA3B900443168 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		09E566FE1BAFA71B00443168 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		09E567001BAFA93400443168 /* SettingsLoggedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLoggedInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 				09E566C61BAF84ED00443168 /* AppDelegate.swift */,
 				09E566C81BAF84ED00443168 /* ViewController.swift */,
 				09E566CA1BAF84ED00443168 /* Main.storyboard */,
+				09E567001BAFA93400443168 /* SettingsLoggedInViewController.swift */,
+				09E566FE1BAFA71B00443168 /* PhotosViewController.swift */,
+				09E566FC1BAFA3B900443168 /* SettingsViewController.swift */,
+				09E566F81BAF95B600443168 /* CreateAccountViewController.swift */,
+				09E566FA1BAF95C900443168 /* SignInViewController.swift */,
+				09E566F41BAF930A00443168 /* CreateAccountRootViewController.swift */,
+				09E566F61BAF932100443168 /* SignInRootViewController.swift */,
 				09E566CD1BAF84ED00443168 /* Assets.xcassets */,
 				09E566CF1BAF84ED00443168 /* LaunchScreen.storyboard */,
 				09E566D21BAF84ED00443168 /* Info.plist */,
@@ -255,6 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E566F91BAF95B600443168 /* CreateAccountViewController.swift in Sources */,
+				09E566FF1BAFA71B00443168 /* PhotosViewController.swift in Sources */,
+				09E567011BAFA93400443168 /* SettingsLoggedInViewController.swift in Sources */,
+				09E566F71BAF932100443168 /* SignInRootViewController.swift in Sources */,
+				09E566FD1BAFA3B900443168 /* SettingsViewController.swift in Sources */,
+				09E566FB1BAF95C900443168 /* SignInViewController.swift in Sources */,
+				09E566F51BAF930A00443168 /* CreateAccountRootViewController.swift in Sources */,
 				09E566C91BAF84ED00443168 /* ViewController.swift in Sources */,
 				09E566C71BAF84ED00443168 /* AppDelegate.swift in Sources */,
 			);
@@ -396,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Project-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Climate.Project-1";
@@ -407,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Project-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Climate.Project-1";
